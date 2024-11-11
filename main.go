@@ -11,5 +11,5 @@ func SayHello(name *string) string {
 		s = *name
 	}
 
-	return fmt.Sprintf("Hello ------....., %s!", s)
+	return fmt.Sprintf("Hello, %s!", s)
 }
