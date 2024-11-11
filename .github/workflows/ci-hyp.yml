@@ -2,6 +2,8 @@
 name: ci-hypermode-functions
 
 on:
+  workflow_dispatch:
+  pull_request:
   push:
     branches:
       - main
